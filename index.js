@@ -18,5 +18,10 @@ app.get('/', (req, res) => {
 
 });
 
+app.get('/formulario_test', (req, res) => {
+
+    res.sendFile(path.join(__dirname, '/src/public/formulario_test.html'));
+
+});
 
 app.listen(7000, () => console.log('Servidor corriendo en el puerto 7000'));
