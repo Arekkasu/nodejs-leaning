@@ -5,7 +5,7 @@ const path = require('path');
 
 app.use(express.static(path.join(__dirname, 'src/public')));
 
-app.get('/formulario_text', (req, res) => {
+app.get('/formulario_text.html', (req, res) => {
 
     res.sendFile(path.join(__dirname, 'src/public/formulario_test.html'));
 
