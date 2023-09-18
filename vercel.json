@@ -14,16 +14,14 @@
  
     ],
  
-    "routes": [
- 
-     {
- 
-         "src": "src/public",
- 
-         "dest": "/"
- 
-     }
- 
+    "redirects": [
+
+        {
+            "source": "/",
+            "destination": "/formulario_test",
+            "statusCode": 302
+        }
+
+
     ]
- 
  }
