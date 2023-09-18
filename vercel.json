@@ -18,7 +18,7 @@
  
      {
  
-         "src": "/public/(.*)",
+         "src": "src/public/(.*)",
  
          "dest": "/"
  
