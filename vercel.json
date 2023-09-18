@@ -14,12 +14,12 @@
  
     ],
  
-    "redirects": [
+    "routes": [
 
         {
-            "source": "/",
-            "destination": "/formulario_test",
-            "statusCode": 302
+            "src": "src/public",
+
+            "dest": "/"
         }
 
 
