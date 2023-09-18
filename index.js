@@ -8,7 +8,7 @@ const path = require('path');
 
 //app.use(require('./src/routes/index'));
 
-app.use(express.static(path.join(__dirname, 'src/public')));
+//app.use(express.static(path.join(__dirname, 'src/public')));
 
 
 
