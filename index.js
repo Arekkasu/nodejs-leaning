@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'src/public')));
 console.log(__dirname, 'src/public/formulario_test.html')
 app.get('/formulario_test', (req, res) => {
 
-    res.sendFile(path.join(__dirname, '/src/public/formulario_test.html'));
+    res.sendFile(path.join(__dirname, '/src/public/index.html'));
 
 });
 
